@@ -1,0 +1,25 @@
+{
+  "name": "trusttrace-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TrustTrace – Candidate Trust & Fraud Intelligence Platform (Phase 1 frontend)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc -p tsconfig.json",
+    "start": "cd .. && python serve.py"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "5.7.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "esbuild": "0.28.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3"
+  }
+}

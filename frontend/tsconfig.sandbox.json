@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react-icons/*": [
+        "/home/claude/.npm-global/lib/node_modules/react-icons/*"
+      ],
+      "zod": [
+        "/opt/npm-tools/node_modules/zod"
+      ]
+    },
+    "noImplicitAny": false
+  },
+  "include": [
+    "src",
+    "types"
+  ],
+  "//": "Sandbox-only: real @types/react was unavailable; the shim types JSX elements loosely, so inline event params would be implicit any. Normal installs use tsconfig.json (strict)."
+}
