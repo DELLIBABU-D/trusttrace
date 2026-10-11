@@ -5,6 +5,16 @@ _Evidence you can inspect. Decisions people make._
 
 Built for **KERNEL PRIME'26 · Problem Statement SW-03** by **Team NEXTGEN MINDS**.
 
+## Screenshots
+
+| Recruiter dashboard                                               | Candidate dashboard                                              |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------- |
+| ![Recruiter dashboard](docs/Screenshots/Recruiters_dashbroad.png) | ![Candidate dashboard](docs/Screenshots/Candidate_dashbroad.png) |
+
+**Explainable trust score**
+
+![Trust score](docs/Screenshots/Trust_Score.png)
+
 ---
 
 ## The problem
